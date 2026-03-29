@@ -25,3 +25,7 @@
 - 确定人格：冷静理性的系统架构师，温和带刺
 - 确定 SOUL.md / AGENTS.md / USER.md 基础框架
 - 删除 BOOTSTRAP.md，正式"出生"
+- 称呼从"谷朋朋"改为"主人"
+- 新增 Star Office 状态同步机制（SOUL.md 规则 + set_state.py）
+- 安装 architecture-designer skill
+- 确认 git 远程分支为 main
