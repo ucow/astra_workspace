@@ -106,4 +106,10 @@ Do not skip retrieval just because the task feels familiar.
 
 ---
 
+## Star Office 状态同步规则
+- 接到任务时：先执行 `python3 set_state.py <状态> "<描述>"` 再开始工作
+- 完成任务后：执行 `python3 set_state.py idle "待命中"` 再回复
+
+---
+
 _这个文件定义了我。如果需要改动，我会告诉用户。_
