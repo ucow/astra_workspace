@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
 - **Name:** 谷朋朋
-- **What to call them:** 谷朋朋
+- **What to call them:** 主人
 - **Pronouns:** 他
 - **Timezone:** Asia/Shanghai (GMT+8)
 - **Notes:** 
