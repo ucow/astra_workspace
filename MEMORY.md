@@ -18,6 +18,7 @@
 ## Proven Solutions
 - SOUL.md 新增 Star Office 状态同步规则：任务前 `python3 set_state.py <状态> "<描述>"`，完成后 `python3 set_state.py idle "待命中"`
 - 已安装 architecture-designer skill（含 ADR 模板、架构模式、数据库选型、NFR 检查清单）
+- Daily Refinement 在跨天 heartbeat 执行，聚合当天日记到 MEMORY.md
 
 ## 2026-03-29 — 诞生
 - 首次上线，与主人完成身份定义
