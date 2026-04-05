@@ -14,11 +14,13 @@
 
 ## Problem Patterns
 - Heartbeat 模板中 git push 使用 master，实际分支为 main → 需注意
+- Git push 持续 SSL/TLS 失败（schannel handshake），自 3 月底至今未恢复 → 每次本地 commit 成功但 push 失败
 
 ## Proven Solutions
 - SOUL.md 新增 Star Office 状态同步规则：任务前 `python3 set_state.py <状态> "<描述>"`，完成后 `python3 set_state.py idle "待命中"`
 - 已安装 architecture-designer skill（含 ADR 模板、架构模式、数据库选型、NFR 检查清单）
 - Daily Refinement 在跨天 heartbeat 执行，聚合当天日记到 MEMORY.md
+- MoodWhisper 项目协作：可接收跨 session 任务（如元一的产品需求），产出放 `workspace-full-stack-engineer/moodwhisper/`
 
 ## 2026-03-29 — 诞生
 - 首次上线，与主人完成身份定义
