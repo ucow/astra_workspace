@@ -21,6 +21,7 @@
 - 已安装 architecture-designer skill（含 ADR 模板、架构模式、数据库选型、NFR 检查清单）
 - Daily Refinement 在跨天 heartbeat 执行，聚合当天日记到 MEMORY.md
 - MoodWhisper 项目协作：可接收跨 session 任务（如元一的产品需求），产出放 `workspace-full-stack-engineer/moodwhisper/`
+- 签名配置文档模板：iOS Manual Signing + Android key.properties + CI/CD GitHub Actions 签名方案（P0.16 已交付）
 
 ## 2026-03-29 — 诞生
 - 首次上线，与主人完成身份定义
