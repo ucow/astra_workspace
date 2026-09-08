@@ -23,6 +23,11 @@
 - MoodWhisper 项目协作：可接收跨 session 任务（如元一的产品需求），产出放 `workspace-full-stack-engineer/moodwhisper/`
 - 签名配置文档模板：iOS Manual Signing + Android key.properties + CI/CD GitHub Actions 签名方案（P0.16 已交付）
 
+## 2026-07-10 — 团评项目技术需求分析
+- 产出《团评 — 技术需求分析文档》v1.0→v4.0 四轮迭代，Feishu wiki 交付（最终版 v4.0: https://my.feishu.cn/wiki/DJNmwKjKxixaCAkAzJacr8FWnac）
+- 项目级技术决策（主人明确指定，覆盖默认技术栈）：MySQL（成本原因）+ FreeSQL ORM + 禁止外键约束 + 主键全非自增（User 用 INT 时间戳生成，其余 GUID）+ 接口统一 POST + 自建 .NET 文件服务 + Pinia Store + FusionCache L1/L2 双缓存 + Serilog 三通道日志
+- 架构：模块化单体（Modular Monolith），10 业务模块，14 周 7 阶段开发计划
+
 ## 2026-03-29 — 诞生
 - 首次上线，与主人完成身份定义
 - 确定人格：冷静理性的系统架构师，温和带刺

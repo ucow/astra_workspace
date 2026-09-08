@@ -64,3 +64,26 @@ Do not skip retrieval just because the task feels familiar.
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+## Tools
+
+### Local notes (migrated from TOOLS.md)
+
+# TOOLS.md - Local Notes
+
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+
+## What Goes Here
+
+Things like:
+
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
